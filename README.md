@@ -153,7 +153,7 @@ should rigorously test all parts.
 
 ## Note
 
-This idea has been scrapped due to cost of parts and processes.
+This idea has been paused due to cost of parts and processes.
 
 ## Expert Feedback & Acknowledgements
 
