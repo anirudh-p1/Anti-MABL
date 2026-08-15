@@ -2,9 +2,10 @@
 
 **Axial Neutrality Training Instrument for Microgravity Associated Bone Loss**
 
-Anti-MABL: ML-powered adaptive resistance control system for space-based upper body training machines. Prevents bone degradation in microgravity using real-time fatigue prediction.
+This repo contains the software for Anti-MABL. ML-powered adaptive resistance control system for space-based upper body training machines. Prevents bone degradation in microgravity using real-time fatigue prediction.
 
-**Only the software for this product has been developed, and is in this repo.**
+
+
 ## **Problem**
 
 My project aims to address the health effects of long duration
@@ -153,3 +154,13 @@ should rigorously test all parts.
 ## Note
 
 This idea has been scrapped due to cost of parts and processes.
+
+## Expert Feedback & Acknowledgements
+
+This project would not have progressed nearly as much without the help of various individuals, labs and companies who offered their feedback and advice.
+
+I would like to thank the following:
+
+* Dr Maria Parkes | Principal Teaching Fellow & BME Programme Lead, Department of Bioengineering, Imperial College London
+* Dr Davide Piaggio | Assistant Professor in Biomedical Engineering, School of Engineering, University of Warwick
+* May Orogi | Arxfit
