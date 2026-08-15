@@ -1,6 +1,6 @@
 # Anti-MABL
 
-**Axial neutrality training instrument for microgravity associated bone loss**
+**Axial Neutrality Training Instrument for Microgravity Associated Bone Loss**
 
 Anti-MABL: ML-powered adaptive resistance control system for space-based upper body training machines. Prevents bone degradation in microgravity using real-time fatigue prediction.
 
