@@ -10,7 +10,7 @@ Anti-MABL is an ML-powered adaptive resistance control system designed for space
 This project was entered into the Big Bang Competition and the TeenTech Awards, receiving appraisal from judging panels, veteran aerospace engineers, and industry experts.
 (Complete feedback for future reference)
 
-> **Big Bang Competition Panel**
+**Big Bang Competition Panel**
 > Congratulations on an absolutely outstanding project! We were hugely impressed by Anti-MABL and the ambition, imagination and technical skill you showed throughout your work.
 >
 > Your project has clearly identified a genuine and under addressed problem - musculoskeletal and bone density loss in astronauts’ upper bodies during spaceflight—and the creative, evidence-based solution devised to tackle it. The project’s strengths lie in its rigorous approach, including thorough research, advanced computational analysis and material selection. The use of 3D CAD modelling and simulation is notable, demonstrating strong technical competence and a willingness to learn and apply advanced skills. The dedication to problem-solving, technical mastery, and future-focused thinking makes this project particularly impressive.
@@ -43,7 +43,7 @@ This project was entered into the Big Bang Competition and the TeenTech Awards, 
 > Really brilliant and inspiring work, well done! 
 
 
-> **TeenTech Award Panel**
+**TeenTech Award Panel**
 > What an incredible journey you have been on with this project. The longevity of your project and the
 extensive, detailed and complicated research you have carried out is extremely impressive and
 displays tenacity, analytical thinking and attention to detail.
