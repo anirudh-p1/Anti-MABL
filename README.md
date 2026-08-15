@@ -4,7 +4,7 @@
 
 Anti-MABL: ML-powered adaptive resistance control system for space-based upper body training machines. Prevents bone degradation in microgravity using real-time fatigue prediction.
 
-**Problem**
+## **Problem**
 
 My project aims to address the health effects of long duration
 spaceflight. Even with rigorous exercise, astronauts lose 1-2% of
@@ -27,7 +27,7 @@ IL-1, IL-6 and TNFα that allow cells to communicate and break
 down bone tissue. This means that too much bone is broken down,
 and this reduces the astronaut’s bone mass.
 
-**Design Brief**
+## **Design Brief**
 
 This product, designed to complement the ARED, should mitigate
 the health risks faced by astronauts from long duration
@@ -37,7 +37,7 @@ pulling motions and grip strength, helping astronauts maintain
 bone mass in these areas, reducing the post-flight recovery time
 and the risk of debilitating fractures.
 
-**Product Research**
+## **Product Research**
 
 ATHLETIC and NEX4EX are both concept
 ideas created by the company DLR whereas
@@ -68,7 +68,7 @@ not suffer as dramatic a health risk from
 space exploration which will continue to
 increase extensively in the future
 
-**Manufacturing Plans, Components, Techniques and Technology**
+## **Manufacturing Plans, Components, Techniques and Technology**
 
 **Eddy Current Brake**
 
@@ -131,7 +131,7 @@ cannot use welding as welding changes the properties
 of the material and would ruin the T7351 heat
 treatment that gives the aluminium alloy its properties.
 
-**Risks**
+## **Risks**
 
 One challenge is the risk of excessive Joule-
 heating in the Eddy Current Brake. Joule Heating
