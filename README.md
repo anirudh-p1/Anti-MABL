@@ -4,6 +4,7 @@
 
 Anti-MABL: ML-powered adaptive resistance control system for space-based upper body training machines. Prevents bone degradation in microgravity using real-time fatigue prediction.
 
+**Only the software for this product has been developed, and is in this repo.**
 ## **Problem**
 
 My project aims to address the health effects of long duration
