@@ -1,7 +1,7 @@
 # Anti-MABL
 ### Axial Neutrality Training Instrument for Microgravity Associated Bone Loss
 
-Anti-MABL is an ML-powered adaptive resistance control system designed for space-based upper-body training machinery. It mitigates bone degradation and musculoskeletal atrophy in microgravity environments using real-time fatigue prediction.
+Anti-MABL (Axial Neutrality Training Instrument for Microgravity Associated Bone Loss) is an ML-powered, contactless electromagnetic exercise countermeasure designed to mitigate (upper-body) skeletal degradation and bone mass loss in microgravity. It uses a frictionless eddy current brake combined with a tension load cell and closed-loop control to provide adaptive resistance.
 
 ---
 
