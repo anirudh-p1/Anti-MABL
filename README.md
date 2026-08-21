@@ -70,9 +70,6 @@ I would like to thank the following:
 
 ---
 
-### Project Status Note
-*The physical hardware development of this project was paused due to the high financial costs associated with aerospace-grade manufacturing processes and specialist components. The machine learning control script and architectural research are preserved openly in this repository as an active portfolio piece.*
-
 ## Awards & Competition Recognition
 
 This project was entered into the Big Bang Competition and the TeenTech Awards, receiving appraisal from judging panels, veteran aerospace engineers, and industry experts.
