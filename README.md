@@ -5,6 +5,74 @@ Anti-MABL is an ML-powered adaptive resistance control system designed for space
 
 ---
 
+
+## The Problem
+
+* **The Rate of Atrophy:** In microgravity, astronauts lose **1–2% of their bone mass per month**. This rate drastically exceeds terrestrial osteoporosis, leaving astronauts highly susceptible to debilitating fractures and demanding an intensive post-flight recovery period.
+* **The Biological Cause:** Microgravity disrupts internal bone homeostasis. The altered environment suppresses Mesenchymal Stem Cells (MSCs), inhibiting osteoblast formation while triggering an overproduction of osteolytic cytokines (**IL-1, IL-6, and TNFα**). This communication failure causes the body to aggressively break down bone tissue without rebuilding it.
+* **The Current Hardware Gap:** Existing ISS countermeasures like NASA's ARED, alongside concept designs like DLR's ATHLETIC and NEX4EX, focus almost exclusively on lower-body, pushing motions. They neglect upper-body pulling muscle groups (e.g., *latissimus dorsi*, *rhomboids*) and grip strength.
+
+---
+
+## Design Brief
+
+Anti-MABL is engineered not to replace current equipment, but to serve as a specialized, compact complementary system.
+* **Target:** Upper-body pulling biomechanics and grip strength retention.
+* **Objective:** Deliver maximal muscle loading across a full range of motion.
+* **Goal:** Protect musculoskeletal health to minimize post-flight recovery times.
+
+---
+
+## Manufacturing, Architecture & Components
+
+### Eddy Current Brake
+* Utilizes electromagnetic forces induced via electrical currents in a conductive material to generate resistance.
+* Operates completely frictionless, eliminating mechanical wear and extending operational lifespans.
+* Impervious to extreme space-bound environmental conditions.
+
+### Electromagnet Control
+* Allows fully variable resistance profiles tailored dynamically to individual user baselines.
+* Resistance scales predictably with the current fed through the electromagnet array.
+
+### 7075-T7351 Aluminium Alloy
+* High strength-to-weight ratio with superior fatigue and stress-corrosion-cracking resistance.
+* Selected as the primary substrate for the main structural body.
+
+### Tension Load Cell
+* Converts raw pulling force into a measurable electrical signal.
+* Integrated into the handgrip assembly to capture real-time force and power metrics, closing the feedback loop with the Eddy Current Brake.
+
+### Aerospace-Grade Titanium Alloy Bolts
+* Non-magnetic fasteners that do not interfere with the electromagnetic fields of the braking system.
+* Paired with nylon-insert locknuts to prevent vibrational loosening.
+* Replaces welding to completely preserve the critical T7351 heat-treatment properties of the aluminium frame.
+
+---
+
+## Risk Management & Safety Engineering
+
+* **Joule Heating Mitigation:** High-current flow through the Eddy Current Brake induces conversion of electrical energy to thermal energy. Future iterations require active cooling blocks paired with a hardware-level emergency current cut-off to shield users from excess heat.
+* **Control Loop Redundancy:** Closed-loop systems carry the risk of algorithm overshooting. Rigorous physical testing profiles must be paired with mechanical safety relief overrides to prevent dangerous structural overloading if the machine learning calculations error out.
+
+---
+
+## Expert Feedback & Acknowledgements
+
+This project would not have progressed nearly as much without the help of various individuals, labs and companies who offered their feedback and advice.
+
+I would like to thank the following:
+
+* **Dr Maria Parkes** | *Principal Teaching Fellow & BME Programme Lead, Department of Bioengineering, Imperial College London*
+  
+* **Dr Davide Piaggio** | *Assistant Professor in Biomedical Engineering, School of Engineering, University of Warwick*
+
+* **May Orogi** | *Arxfit*
+
+---
+
+### Project Status Note
+*The physical hardware development of this project was paused due to the high financial costs associated with aerospace-grade manufacturing processes and specialist components. The machine learning control script and architectural research are preserved openly in this repository as an active portfolio piece.*
+
 ## Awards & Competition Recognition
 
 This project was entered into the Big Bang Competition and the TeenTech Awards, receiving appraisal from judging panels, veteran aerospace engineers, and industry experts.
@@ -76,70 +144,3 @@ things to solving meaningful problems. For me, this suggests a strong foundation
 in design and engineering. 
 
 ---
-
-## The Problem
-
-* **The Rate of Atrophy:** In microgravity, astronauts lose **1–2% of their bone mass per month**. This rate drastically exceeds terrestrial osteoporosis, leaving astronauts highly susceptible to debilitating fractures and demanding an intensive post-flight recovery period.
-* **The Biological Cause:** Microgravity disrupts internal bone homeostasis. The altered environment suppresses Mesenchymal Stem Cells (MSCs), inhibiting osteoblast formation while triggering an overproduction of osteolytic cytokines (**IL-1, IL-6, and TNFα**). This communication failure causes the body to aggressively break down bone tissue without rebuilding it.
-* **The Current Hardware Gap:** Existing ISS countermeasures like NASA's ARED, alongside concept designs like DLR's ATHLETIC and NEX4EX, focus almost exclusively on lower-body, pushing motions. They neglect upper-body pulling muscle groups (e.g., *latissimus dorsi*, *rhomboids*) and grip strength.
-
----
-
-## Design Brief
-
-Anti-MABL is engineered not to replace current equipment, but to serve as a specialized, compact complementary system.
-* **Target:** Upper-body pulling biomechanics and grip strength retention.
-* **Objective:** Deliver maximal muscle loading across a full range of motion.
-* **Goal:** Protect musculoskeletal health to minimize post-flight recovery times.
-
----
-
-## Manufacturing, Architecture & Components
-
-### Eddy Current Brake
-* Utilizes electromagnetic forces induced via electrical currents in a conductive material to generate resistance.
-* Operates completely frictionless, eliminating mechanical wear and extending operational lifespans.
-* Impervious to extreme space-bound environmental conditions.
-
-### Electromagnet Control
-* Allows fully variable resistance profiles tailored dynamically to individual user baselines.
-* Resistance scales predictably with the current fed through the electromagnet array.
-
-### 7075-T7351 Aluminium Alloy
-* High strength-to-weight ratio with superior fatigue and stress-corrosion-cracking resistance.
-* Selected as the primary substrate for the main structural body.
-
-### Tension Load Cell
-* Converts raw pulling force into a measurable electrical signal.
-* Integrated into the handgrip assembly to capture real-time force and power metrics, closing the feedback loop with the Eddy Current Brake.
-
-### Aerospace-Grade Titanium Alloy Bolts
-* Non-magnetic fasteners that do not interfere with the electromagnetic fields of the braking system.
-* Paired with nylon-insert locknuts to prevent vibrational loosening.
-* Replaces welding to completely preserve the critical T7351 heat-treatment properties of the aluminium frame.
-
----
-
-## Risk Management & Safety Engineering
-
-* **Joule Heating Mitigation:** High-current flow through the Eddy Current Brake induces conversion of electrical energy to thermal energy. Future iterations require active cooling blocks paired with a hardware-level emergency current cut-off to shield users from excess heat.
-* **Control Loop Redundancy:** Closed-loop systems carry the risk of algorithm overshooting. Rigorous physical testing profiles must be paired with mechanical safety relief overrides to prevent dangerous structural overloading if the machine learning calculations error out.
-
----
-
-## Expert Feedback & Acknowledgements
-
-This project would not have progressed nearly as much without the help of various individuals, labs and companies who offered their feedback and advice.
-
-I would like to thank the following:
-
-* **Dr Maria Parkes** | *Principal Teaching Fellow & BME Programme Lead, Department of Bioengineering, Imperial College London*
-  
-* **Dr Davide Piaggio** | *Assistant Professor in Biomedical Engineering, School of Engineering, University of Warwick*
-
-* **May Orogi** | *Arxfit*
-
----
-
-### Project Status Note
-*The physical hardware development of this project was paused due to the high financial costs associated with aerospace-grade manufacturing processes and specialist components. The machine learning control script and architectural research are preserved openly in this repository as an active portfolio piece.*
