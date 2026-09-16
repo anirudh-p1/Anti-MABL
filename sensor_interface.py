@@ -60,6 +60,6 @@ motion_sensor = MotionSensor()
 # Create acquisition system
 acquisition_system = SensorAcquisitionSystem(load_cell, motion_sensor)
 
-# Start sensor acquisition in a separate thread
+# Start sensor acquisition separately.
 acquisition_thread = threading.Thread(target=acquisition_system.start_acquisition)
 acquisition_thread.start()
