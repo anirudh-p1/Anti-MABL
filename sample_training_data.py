@@ -1,4 +1,4 @@
-# sample_training_data.py
+
 
 class SimulatedSession:
     def __init__(self, session_id, initial_fatigue=0):
@@ -24,7 +24,7 @@ class SimulatedSession:
     def get_fatigue_level(self):
         return self.current_fatigue
 
-# Example of usage
+# Example use
 if __name__ == '__main__':
     session = SimulatedSession(session_id=1)
     print(f'Initial Fatigue: {session.get_fatigue_level()}')
